@@ -1,0 +1,13 @@
+/* 只添加这些最小必要的样式 */
+.hover-hint {
+  position: absolute;
+  right: 1.5rem;
+  bottom: 1.5rem;
+  font-size: 0.875rem;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+button:hover .hover-hint {
+  opacity: 1;
+}
